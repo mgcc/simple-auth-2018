@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+}
+
+#header {
+  background-color: rgba(0, 128, 128, 1.0);
+  color: white;
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 10px 20px 0px 20px;
+}
+
+#content {
+  padding: 20px;
+}
+
+.title-text {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Sans Serif';
+  float: left;
+}
+
+.links a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  transition: 0.1s all ease-in-out;
+  padding: 5px 5px 5px 20px;
+  font-family: 'Sans Serif';
+}
+
+.links a:visited {
+  color: white;
+}
+
+.links a:hover {
+  color: grey;
+}
+
+.log-in-form {
+  float: right;
+  margin-top: 5px;
+}
+
+#sign-up input, #sign-up button {
+  margin-top: 10px;
+}

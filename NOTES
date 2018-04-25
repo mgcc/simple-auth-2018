@@ -1,0 +1,12 @@
+
+
+Simple token-based authentication using local credentials
+
+There are 3rd party based authentication strategies such as log in using FB or Google but we'll focus on the simplest, which is to use locally stored credientials.
+
+To make this happen, we need 2 packages
+1. passport ( the authentication package )
+2. passport-local ( the authentication 'strategy' that lets us use locally stored credentials )
+3. jsonwebtoken (this lets us validate tokens sent by clients
+4. react-cookie (to be able to pass the tokens back to the server)
+5. A secret string
